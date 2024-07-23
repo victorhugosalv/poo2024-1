@@ -3,13 +3,13 @@ package pooEx4.program;
 import pooEx4.entities.Amigo;
 import pooEx4.entities.MensagemParaAlguem;
 import pooEx4.entities.MensagemParaTodos;
-import pooEx4.models.SistemaAmigo;
+import pooEx4.models.SistemaAmigoMap;
 
 public class TestaSistemaAmigo {
 
     public static void main(String[] args) {
 
-        SistemaAmigo sistema = new SistemaAmigo();
+        SistemaAmigoMap sistema = new SistemaAmigoMap();
 
 
         sistema.cadastraAmigo("Jose", "jose@hotmail.com");
